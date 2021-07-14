@@ -197,12 +197,8 @@ a .fas{
     width: 80%;
     margin: 0 auto;
 }
-.players-area h2{
-    font-size: 30px;
-	color: #4a4a4a;
-}
-.players-area h2{
-    font-size: 30px;
+.players-area h3{
+    font-size: 25px;
 }
 .players-item-one{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -212,6 +208,7 @@ a .fas{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
+
 }
 .players-item-two{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -246,9 +243,9 @@ a .fas{
 }
 
 /* highlight area one */
-.highlight-area{
+.highlight-part{
     padding-top: 10px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 .highlight{
     width: 96%;
@@ -258,6 +255,7 @@ a .fas{
     padding-top: 80px;
     width: 40%;
     float: left;
+    margin-bottom: 100px;
     margin-left: 10%;
 }
 .highlight-right-part{
@@ -265,6 +263,7 @@ a .fas{
     width: 40%;
     float: left;
     padding-left: 2%;
+    margin-bottom: 100px;
 }
 .highlight-left-part h2{
     font-size: 40px;
@@ -276,10 +275,136 @@ a .fas{
     margin-bottom: 40px;
 	line-height: 26px;
 }
+
 .highlight-right-part img{
     width: 100%;
     padding-top: 36px;
 }
+
+
+/* blogs area */
+.blogs-part{
+    margin-top: 70px;
+    padding-top: 70px;
+}
+.all-blogs{
+    margin: 30px 50px;
+}
+.d-flex-sponsor-blog{
+    display: flex;
+    margin-right: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    margin-left: 8%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.blog  img{
+    width: 500px;
+    height: 300px;
+}
+.blog-info{
+    margin-left: 26px;
+}
+.blog-title{
+    font-size: 26px;
+    margin-bottom: 0;
+}
+blog-paragraph{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* highlight area two */
+.highlight-part{
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+.highlight{
+    width: 90%;
+    margin: 0 auto;
+}
+.highlight-right-part{
+    padding-top: 80px;
+    width: 40%;
+    float: left;
+    margin-bottom: 100px;
+}
+.highlight-left-part{
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+.highlight-right-part h2{
+    font-size: 40px;
+    font-weight: 900;
+	line-height: 50px;
+}
+.highlight-paragraph{
+    color: dimgray;
+    margin-bottom: 40px;
+	line-height: 26px;
+}
+.highlight-left-part img{
+    width: 100%;
+    padding-top: 36px;
+}
+
+/* sponsor area */
+.sponsor-area{
+    margin-top: 100px;
+}
+.d-flex-sponsor{
+    display: flex;
+    margin-right: 5%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    margin-left: 8%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.sponsor-item-one{
+    width: 30%;
+    margin-left: 10%;
+}
+.sponsor-item-two{
+    width: 30%;
+}
+.sponsor-item-three{
+    width: 30%;   
+}
+.sponsor-item-four{
+    width: 30%;   
+}
+
+
+
 
 
 
@@ -330,7 +455,52 @@ a .fas{
     .highlight-right-part{
         margin-top: 20px;
         width: 86%;
-        margin-left: 8%;
+    }
+    .blog{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blog  img{
+        width: 80%;
+    }
+    .blog-info{
+        margin-top: 26px;
+        width: 80%;
+    }
+    .highlight-right-part{
+        padding-top: 80px;
+        width: 86%;
+    }
+    .highlight-left-part{
+        margin-top: 20px;
+        width: 86%;
+    }
+    .sponsor-item-one{
+        width: 25%;
+        margin-left: 5%;
+    }
+    .sponsor-item-two{
+        width: 25%;
+    }
+    .sponsor-item-three{
+        width: 25%;   
+    }
+    .sponsor-item-four{
+        width: 25%;   
+    }
+    .sponsor-item-one img{
+        width: 85%;
+        margin-left: 5%;
+    }
+    .sponsor-item-two img{
+        width: 85%;
+    }
+    .sponsor-item-three img{
+        width: 85%;   
+    }
+    .sponsor-item-four img{
+        width: 85%;   
     }
    
 }
@@ -367,7 +537,39 @@ a .fas{
     .highlight-right-part{
         margin-top: 20px;
         width: 86%;
-        margin-left: 8%;
+    }
+    .blog{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blog  img{
+        width: 80%;
+    }
+    .blog-info{
+        margin-top: 26px;
+        width: 80%;
+    }
+    .highlight-right-part{
+        padding-top: 80px;
+        width: 86%;
+    }
+    .highlight-left-part{
+        margin-top: 20px;
+        width: 86%;
+    }
+    .sponsor-item-one{
+        width: 25%;
+        margin-left: 5%;
+    }
+    .sponsor-item-two{
+        width: 25%;
+    }
+    .sponsor-item-three{
+        width: 25%;   
+    }
+    .sponsor-item-four{
+        width: 25%;   
     }
    
 }
