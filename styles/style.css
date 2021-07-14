@@ -403,13 +403,32 @@ blog-paragraph{
     width: 30%;   
 }
 
-
-
-
-
-
-
-
+/* footer */
+.footer-design{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .footer-design img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .social-link{
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .fa-instagram,
+  .fa-dribbble,
+  .fa-twitter,
+  .fa-youtube{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(219, 219, 219);
+  }
+  .copyrigth{
+    text-align: center;
+  }
 
 
 /* ------------------------------
