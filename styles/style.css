@@ -197,7 +197,6 @@ a .fas{
     width: 80%;
     margin: 0 auto;
 }
-
 .players-area h2{
     font-size: 30px;
 	color: #4a4a4a;
@@ -213,7 +212,6 @@ a .fas{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 30px;
-
 }
 .players-item-two{
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -245,6 +243,42 @@ a .fas{
 #players-three img{
     width: 100%;
 	margin-top: 8px;
+}
+
+/* highlight area one */
+.highlight-area{
+    padding-top: 10px;
+    margin-bottom: 200px;
+}
+.highlight{
+    width: 96%;
+    margin: 0 auto;
+}
+.highlight-left-part{
+    padding-top: 80px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+.highlight-right-part{
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+}
+.highlight-left-part h2{
+    font-size: 40px;
+    font-weight: 900;
+	line-height: 50px;
+}
+.highlight-paragraph{
+    color: dimgray;
+    margin-bottom: 40px;
+	line-height: 26px;
+}
+.highlight-right-part img{
+    width: 100%;
+    padding-top: 36px;
 }
 
 
@@ -289,6 +323,15 @@ a .fas{
         width: 80%;
         margin: 0 auto;
     }
+    .highlight-left-part{
+        padding-top: 80px;
+        width: 86%;
+    }
+    .highlight-right-part{
+        margin-top: 20px;
+        width: 86%;
+        margin-left: 8%;
+    }
    
 }
   
@@ -316,6 +359,15 @@ a .fas{
         grid-column-gap: 30px;
         width: 80%;
         margin: 0 auto;
+    }
+    .highlight-left-part{
+        padding-top: 80px;
+        width: 86%;
+    }
+    .highlight-right-part{
+        margin-top: 20px;
+        width: 86%;
+        margin-left: 8%;
     }
    
 }
